@@ -1,0 +1,10 @@
+.local/
+.env
+.env.*
+*.pem
+*.key
+*client_secret*.json
+*token*.json
+node_modules/
+__pycache__/
+.DS_Store
