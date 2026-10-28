@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Pol's Hermes handles Google account data for private email and calendar tasks.">
+  <title>Privacy — Pol's Hermes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Pol's Hermes home">Pol's Hermes</a>
+    <nav aria-label="Main navigation">
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-content">
+    <p class="eyebrow">Data and privacy</p>
+    <h1>Privacy policy</h1>
+    <p class="lede">Pol's Hermes is a personal assistant operated by Pol for his own accounts. It is not a public sign-up service.</p>
+
+    <section aria-labelledby="data-accessed">
+      <h2 id="data-accessed">Google data accessed</h2>
+      <p><strong>Gmail:</strong> Hermes uses read-only access to find, read, and summarize messages and related details. It can prepare email text for Pol and, only after a separate sending permission is granted, send new messages or replies that Pol has approved. Approving the integration does not itself approve any particular email. These features do not request permission to delete email or manage the mailbox. Preparing text in the assistant does not require access to Gmail's saved drafts.</p>
+      <p><strong>Google Calendar:</strong> Hermes can read calendar events and the details needed to answer a calendar request. It can create or change an event only after Pol separately approves that specific change.</p>
+    </section>
+
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">How the data is used</h2>
+      <p>Google data is used only to carry out tasks Pol requests, such as finding or summarizing a message, preparing an email, sending an approved message, checking an event, or making a separately approved calendar change. It is not sold, used for advertising, or provided to data brokers. The operator does not use Google API data to train generalized AI or machine-learning models or for an unrelated purpose.</p>
+      <p>Google data, including summaries derived from it, is limited to providing or improving features of the assistant. A service provider may receive relevant content when needed to provide a requested feature, and may use it only for that task. A person may review specific Google data only with Pol's affirmative agreement, when necessary for security, or when required by law. These are the assistant's Limited Use commitments, consistent with the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noreferrer">Google API Services User Data Policy</a>.</p>
+    </section>
+
+    <section aria-labelledby="service-providers">
+      <h2 id="service-providers">AI and other service providers</h2>
+      <p>Relevant email or calendar content, derived summaries, and task instructions may be sent to the assistant's configured AI providers, including OpenAI through Codex authentication, to generate a requested response or prepare a requested action. Relevant content may also pass through the hosting or messaging services used to operate the assistant and deliver responses to Pol.</p>
+      <p>Pol has disabled model training for the OpenAI account used by Hermes. This is not a promise of zero retention: providers may retain content for service operation or security under their applicable privacy policies and account controls. Provider-held records are governed by those controls, including <a href="https://openai.com/policies/privacy-policy/" rel="noreferrer">OpenAI's privacy policy</a>. Google data must not be routed to a new provider unless its use is consistent with this policy and the assistant's Limited Use commitments.</p>
+    </section>
+
+    <section aria-labelledby="storage-logs">
+      <h2 id="storage-logs">Tokens, conversations, and logs</h2>
+      <p>Google OAuth tokens are kept in access-restricted storage in the assistant runtime, separate from conversation and monitoring logs. Conversations and monitoring records may contain instructions, responses, operational details, or excerpts from email and calendar data. Separate storage does not mean that all conversation content stays on one machine or with one provider.</p>
+      <p>Conversation histories and monitoring records are retained in the operator's private server storage until Pol removes them or the relevant system's configured cleanup removes them. There is no fixed automatic deletion period promised for all records. Pol controls removal of histories, logs, and saved credentials on systems he operates. Copies retained by external providers follow those providers' retention and deletion controls; disabling model training is not a deletion request.</p>
+    </section>
+
+    <section aria-labelledby="revoke">
+      <h2 id="revoke">Revoke access or ask about data</h2>
+      <p>Pol can revoke Google access from the connected account's <a href="https://myaccount.google.com/connections" rel="noreferrer">Google Account connections</a> by removing Pol's Hermes. Revocation stops future access through that grant, but may not remove content already present in conversation, monitoring, or provider records.</p>
+      <p>As the sole user and operator, Pol manages deletion of records on systems he controls and can use external providers' account controls for provider-held records. Project ownership is identified by <a href="https://github.com/polmonta">github.com/polmonta</a>. This website does not collect account connections or deletion requests from other users.</p>
+    </section>
+
+    <p class="policy-note">This policy must be updated if the data accessed, assistant features, or service providers change.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Operated privately by Pol.</p>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms</a>
+      <a href="https://github.com/polmonta" rel="noreferrer">Pol's GitHub profile</a>
+    </nav>
+  </footer>
+</body>
+</html>
